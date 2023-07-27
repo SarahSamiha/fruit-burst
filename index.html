@@ -135,322 +135,432 @@
             </div>
         </div>
     </header>
-    <main class="mx-10 lg:mx-32 my-10 space-y-10">
+    <main class="mx-10 lg:mx-32 my-16 space-y-16">
 
-        <!-- title & date -->
-        <div class="flex flex-col lg:flex-row items-center justify-between gap-5">
+        <!-- Deal of the day -->
+        <section class="space-y-10">
+            <!-- title & date -->
+            <div class="flex flex-col lg:flex-row items-center justify-between gap-5">
 
-            <!-- Title -->
-            <div class="space-y-5 text-center lg:text-left">
-                <h3 class="text-4xl font-extrabold">Deal of the day</h3>
-                <p class="max-w-xl">
-                    Contrary to popular belief, is not simply random text. It has roots in a piece of classical Latin
-                    literature from 45 BC, making it over 2000 years old.
-                </p>
-            </div>
+                <!-- Title -->
+                <div class="space-y-5 text-center lg:text-left">
+                    <h3 class="text-4xl font-extrabold">Deal of the day</h3>
+                    <p class="max-w-xl">
+                        Here you can find fresh and seasonal fruit from all over the country. We provide the best deal
+                        you can find.
+                    </p>
+                </div>
 
-            <!-- Date -->
-            <div>
-                <div class="grid grid-flow-col gap-5 text-center auto-cols-max">
-                    <div class="flex flex-col">
-                        <span class="countdown font-mono text-5xl">
-                            <span style="--value:15;"></span>
-                        </span>
-                        days
-                    </div>
-                    <div class="py-3">
-                        <i class="fa-solid fa-ellipsis-vertical fa-lg" style="color: #202124;"></i>
-                    </div>
-                    <div class="flex flex-col">
-                        <span class="countdown font-mono text-5xl">
-                            <span style="--value:10;"></span>
-                        </span>
-                        hours
-                    </div>
-                    <div class="py-3">
-                        <i class="fa-solid fa-ellipsis-vertical fa-lg" style="color: #202124;"></i>
-                    </div>
-                    <div class="flex flex-col">
-                        <span class="countdown font-mono text-5xl">
-                            <span style="--value:24;"></span>
-                        </span>
-                        min
-                    </div>
-                    <div class="py-3">
-                        <i class="fa-solid fa-ellipsis-vertical fa-lg" style="color: #202124;"></i>
-                    </div>
-                    <div class="flex flex-col">
-                        <span class="countdown font-mono text-5xl">
-                            <span style="--value:23;"></span>
-                        </span>
-                        sec
+                <!-- Date -->
+                <div>
+                    <div class="grid grid-flow-col gap-5 text-center auto-cols-max">
+                        <div class="flex flex-col">
+                            <span class="countdown font-mono text-5xl">
+                                <span style="--value:15;"></span>
+                            </span>
+                            days
+                        </div>
+                        <div class="py-3">
+                            <i class="fa-solid fa-ellipsis-vertical fa-lg" style="color: #202124;"></i>
+                        </div>
+                        <div class="flex flex-col">
+                            <span class="countdown font-mono text-5xl">
+                                <span style="--value:10;"></span>
+                            </span>
+                            hours
+                        </div>
+                        <div class="py-3">
+                            <i class="fa-solid fa-ellipsis-vertical fa-lg" style="color: #202124;"></i>
+                        </div>
+                        <div class="flex flex-col">
+                            <span class="countdown font-mono text-5xl">
+                                <span style="--value:24;"></span>
+                            </span>
+                            min
+                        </div>
+                        <div class="py-3">
+                            <i class="fa-solid fa-ellipsis-vertical fa-lg" style="color: #202124;"></i>
+                        </div>
+                        <div class="flex flex-col">
+                            <span class="countdown font-mono text-5xl">
+                                <span style="--value:23;"></span>
+                            </span>
+                            sec
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
 
-        <!-- card container -->
-        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5">
+            <!-- card container -->
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5">
 
-            <!-- card 1 -->
-            <div class="card bg-base-100 border">
-                <figure class="px-10 pt-10">
-                    <img src="images/fruit6.png" alt="Shoes" class="rounded-xl" />
-                </figure>
-                <div class="card-body items-center text-center">
-                    <h2 class="card-title border-b-2 p-4 pt-0">12.90$ - 18.85$ </h2>
-                    <p>Apples</p>
+                <!-- card 1 -->
+                <div class="card bg-base-100 border">
+                    <figure class="px-10 pt-10">
+                        <img src="images/fruit6.png" alt="Shoes" class="rounded-xl" />
+                    </figure>
+                    <div class="card-body items-center text-center">
+                        <h2 class="card-title border-b-2 p-4 pt-0">12.90$ - 18.85$ </h2>
+                        <p>Apples</p>
 
-                    <!-- rating -->
-                    <div class="rating rating-half">
-                        <input type="radio" name="rating-1" class="rating-hidden" />
-                        <input type="radio" name="rating-1" class="bg-theme mask mask-star-2 mask-half-1" />
-                        <input type="radio" name="rating-1" class="bg-theme mask mask-star-2 mask-half-2" />
-                        <input type="radio" name="rating-1" class="bg-theme mask mask-star-2 mask-half-1" checked />
-                        <input type="radio" name="rating-1" class="bg-theme mask mask-star-2 mask-half-2" />
-                        <input type="radio" name="rating-1" class="bg-theme mask mask-star-2 mask-half-1" />
-                        <input type="radio" name="rating-1" class="bg-theme mask mask-star-2 mask-half-2" />
-                        <input type="radio" name="rating-1" class="bg-theme mask mask-star-2 mask-half-1" />
-                        <input type="radio" name="rating-1" class="bg-theme mask mask-star-2 mask-half-2" />
-                        <input type="radio" name="rating-1" class="bg-theme mask mask-star-2 mask-half-1" />
-                        <input type="radio" name="rating-1" class="bg-theme mask mask-star-2 mask-half-2" />
+                        <!-- rating -->
+                        <div class="rating rating-half">
+                            <input type="radio" name="rating-1" class="rating-hidden" />
+                            <input type="radio" name="rating-1" class="bg-theme mask mask-star-2 mask-half-1" />
+                            <input type="radio" name="rating-1" class="bg-theme mask mask-star-2 mask-half-2" />
+                            <input type="radio" name="rating-1" class="bg-theme mask mask-star-2 mask-half-1" checked />
+                            <input type="radio" name="rating-1" class="bg-theme mask mask-star-2 mask-half-2" />
+                            <input type="radio" name="rating-1" class="bg-theme mask mask-star-2 mask-half-1" />
+                            <input type="radio" name="rating-1" class="bg-theme mask mask-star-2 mask-half-2" />
+                            <input type="radio" name="rating-1" class="bg-theme mask mask-star-2 mask-half-1" />
+                            <input type="radio" name="rating-1" class="bg-theme mask mask-star-2 mask-half-2" />
+                            <input type="radio" name="rating-1" class="bg-theme mask mask-star-2 mask-half-1" />
+                            <input type="radio" name="rating-1" class="bg-theme mask mask-star-2 mask-half-2" />
+                        </div>
+                        <!-- modal -->
+                        <!-- Open the modal using ID.showModal() method -->
+                        <button class="btn bg-white text-theme normal-case border-0"
+                            onclick="my_modal_1.showModal()">Details</button>
+                        <dialog id="my_modal_1" class="modal modal-middle">
+                            <form method="dialog" class="modal-box max-w-sm">
+                                <div class="w-full flex justify-center">
+                                    <img src="images/fruit6.png" alt="">
+                                </div>
+                                <h3 class="font-bold text-lg lg:mt-5">Apples</h3>
+                                <p class="lg:py-4">
+                                    Professional employees are there for you to pick the most amazing and fresh fruits.
+                                </p>
+
+                                <!-- rating -->
+                                <div class="rating rating-half">
+                                    <input type="radio" name="rating-1" class="rating-hidden" />
+                                    <input type="radio" name="rating-1" class="bg-theme mask mask-star-2 mask-half-1" />
+                                    <input type="radio" name="rating-1" class="bg-theme mask mask-star-2 mask-half-2" />
+                                    <input type="radio" name="rating-1" class="bg-theme mask mask-star-2 mask-half-1"
+                                        checked />
+                                    <input type="radio" name="rating-1" class="bg-theme mask mask-star-2 mask-half-2" />
+                                    <input type="radio" name="rating-1" class="bg-theme mask mask-star-2 mask-half-1" />
+                                    <input type="radio" name="rating-1" class="bg-theme mask mask-star-2 mask-half-2" />
+                                    <input type="radio" name="rating-1" class="bg-theme mask mask-star-2 mask-half-1" />
+                                    <input type="radio" name="rating-1" class="bg-theme mask mask-star-2 mask-half-2" />
+                                    <input type="radio" name="rating-1" class="bg-theme mask mask-star-2 mask-half-1" />
+                                    <input type="radio" name="rating-1" class="bg-theme mask mask-star-2 mask-half-2" />
+                                </div>
+                                <div class="modal-action justify-center">
+                                    <!-- if there is a button in form, it will close the modal -->
+                                    <button
+                                        class="btn btn-primary bg-theme hover:bg-red-500 text-white border-0">Close</button>
+                                    <button class="btn btn-primary bg-theme hover:bg-red-500 text-white border-0">Buy
+                                        Now</button>
+                                </div>
+                            </form>
+                        </dialog>
                     </div>
-                    <!-- modal -->
-                    <!-- Open the modal using ID.showModal() method -->
-                    <button class="btn bg-white text-theme normal-case border-0"
-                        onclick="my_modal_1.showModal()">Details</button>
-                    <dialog id="my_modal_1" class="modal modal-middle">
-                        <form method="dialog" class="modal-box max-w-sm">
-                            <div class="w-full flex justify-center">
-                                <img src="images/fruit6.png" alt="">
-                            </div>
-                            <h3 class="font-bold text-lg lg:mt-5">Apples</h3>
-                            <p class="lg:py-4">
-                                Professional employees are there for you to pick the most amazing and fresh fruits.
-                            </p>
+                </div>
 
-                            <!-- rating -->
-                            <div class="rating rating-half">
-                                <input type="radio" name="rating-1" class="rating-hidden" />
-                                <input type="radio" name="rating-1" class="bg-theme mask mask-star-2 mask-half-1" />
-                                <input type="radio" name="rating-1" class="bg-theme mask mask-star-2 mask-half-2" />
-                                <input type="radio" name="rating-1" class="bg-theme mask mask-star-2 mask-half-1"
-                                    checked />
-                                <input type="radio" name="rating-1" class="bg-theme mask mask-star-2 mask-half-2" />
-                                <input type="radio" name="rating-1" class="bg-theme mask mask-star-2 mask-half-1" />
-                                <input type="radio" name="rating-1" class="bg-theme mask mask-star-2 mask-half-2" />
-                                <input type="radio" name="rating-1" class="bg-theme mask mask-star-2 mask-half-1" />
-                                <input type="radio" name="rating-1" class="bg-theme mask mask-star-2 mask-half-2" />
-                                <input type="radio" name="rating-1" class="bg-theme mask mask-star-2 mask-half-1" />
-                                <input type="radio" name="rating-1" class="bg-theme mask mask-star-2 mask-half-2" />
+                <!-- card 2 -->
+                <div class="card bg-base-100 border">
+                    <figure class="px-10 pt-10">
+                        <img src="images/fruit7.png" alt="Shoes" class="rounded-xl" />
+                    </figure>
+                    <div class="card-body items-center text-center">
+                        <h2 class="card-title border-b-2 p-4 pt-0">12.90$ - 18.85$ </h2>
+                        <p>Orange</p>
+
+                        <!-- rating -->
+                        <div class="rating rating-half">
+                            <input type="radio" name="rating-2" class="rating-hidden" />
+                            <input type="radio" name="rating-2" class="bg-theme mask mask-star-2 mask-half-1" />
+                            <input type="radio" name="rating-2" class="bg-theme mask mask-star-2 mask-half-2" />
+                            <input type="radio" name="rating-2" class="bg-theme mask mask-star-2 mask-half-1" checked />
+                            <input type="radio" name="rating-2" class="bg-theme mask mask-star-2 mask-half-2" />
+                            <input type="radio" name="rating-2" class="bg-theme mask mask-star-2 mask-half-1" />
+                            <input type="radio" name="rating-2" class="bg-theme mask mask-star-2 mask-half-2" />
+                            <input type="radio" name="rating-2" class="bg-theme mask mask-star-2 mask-half-1" />
+                            <input type="radio" name="rating-2" class="bg-theme mask mask-star-2 mask-half-2" />
+                            <input type="radio" name="rating-2" class="bg-theme mask mask-star-2 mask-half-1" />
+                            <input type="radio" name="rating-2" class="bg-theme mask mask-star-2 mask-half-2" />
+                        </div>
+                        <!-- modal -->
+                        <!-- Open the modal using ID.showModal() method -->
+                        <button class="btn bg-white text-theme normal-case border-0"
+                            onclick="my_modal_2.showModal()">Details</button>
+                        <dialog id="my_modal_2" class="modal modal-middle">
+                            <form method="dialog" class="modal-box max-w-sm">
+                                <div class="w-full flex justify-center">
+                                    <img src="images/fruit7.png" alt="">
+                                </div>
+                                <h3 class="font-bold text-lg lg:mt-5">Orange</h3>
+                                <p class="lg:py-4">
+                                    Professional employees are there for you to pick the most amazing and fresh fruits.
+                                </p>
+
+                                <!-- rating -->
+                                <div class="rating rating-half">
+                                    <input type="radio" name="rating-2" class="rating-hidden" />
+                                    <input type="radio" name="rating-2" class="bg-theme mask mask-star-2 mask-half-1" />
+                                    <input type="radio" name="rating-2" class="bg-theme mask mask-star-2 mask-half-2" />
+                                    <input type="radio" name="rating-2" class="bg-theme mask mask-star-2 mask-half-1"
+                                        checked />
+                                    <input type="radio" name="rating-2" class="bg-theme mask mask-star-2 mask-half-2" />
+                                    <input type="radio" name="rating-2" class="bg-theme mask mask-star-2 mask-half-1" />
+                                    <input type="radio" name="rating-2" class="bg-theme mask mask-star-2 mask-half-2" />
+                                    <input type="radio" name="rating-2" class="bg-theme mask mask-star-2 mask-half-1" />
+                                    <input type="radio" name="rating-2" class="bg-theme mask mask-star-2 mask-half-2" />
+                                    <input type="radio" name="rating-2" class="bg-theme mask mask-star-2 mask-half-1" />
+                                    <input type="radio" name="rating-2" class="bg-theme mask mask-star-2 mask-half-2" />
+                                </div>
+                                <div class="modal-action justify-center">
+                                    <!-- if there is a button in form, it will close the modal -->
+                                    <button
+                                        class="btn btn-primary bg-theme hover:bg-red-500 text-white border-0">Close</button>
+                                    <button class="btn btn-primary bg-theme hover:bg-red-500 text-white border-0">Buy
+                                        Now</button>
+                                </div>
+                            </form>
+                        </dialog>
+                    </div>
+                </div>
+
+                <!-- card 3 -->
+                <div class="card bg-base-100 border">
+                    <figure class="px-10 pt-10">
+                        <img src="images/fruit8.png" alt="Shoes" class="rounded-xl" />
+                    </figure>
+                    <div class="card-body items-center text-center">
+                        <h2 class="card-title border-b-2 p-4 pt-0">12.90$ - 18.85$ </h2>
+                        <p>Red Dragon</p>
+
+                        <!-- rating -->
+                        <div class="rating rating-half">
+                            <input type="radio" name="rating-3" class="rating-hidden" />
+                            <input type="radio" name="rating-3" class="bg-theme mask mask-star-2 mask-half-1" />
+                            <input type="radio" name="rating-3" class="bg-theme mask mask-star-2 mask-half-2" />
+                            <input type="radio" name="rating-3" class="bg-theme mask mask-star-2 mask-half-1" checked />
+                            <input type="radio" name="rating-3" class="bg-theme mask mask-star-2 mask-half-2" />
+                            <input type="radio" name="rating-3" class="bg-theme mask mask-star-2 mask-half-1" />
+                            <input type="radio" name="rating-3" class="bg-theme mask mask-star-2 mask-half-2" />
+                            <input type="radio" name="rating-3" class="bg-theme mask mask-star-2 mask-half-1" />
+                            <input type="radio" name="rating-3" class="bg-theme mask mask-star-2 mask-half-2" />
+                            <input type="radio" name="rating-3" class="bg-theme mask mask-star-2 mask-half-1" />
+                            <input type="radio" name="rating-3" class="bg-theme mask mask-star-2 mask-half-2" />
+                        </div>
+                        <!-- modal -->
+                        <!-- Open the modal using ID.showModal() method -->
+                        <button class="btn bg-white text-theme normal-case border-0"
+                            onclick="my_modal_3.showModal()">Details</button>
+                        <dialog id="my_modal_3" class="modal modal-middle">
+                            <form method="dialog" class="modal-box max-w-sm">
+                                <div class="w-full flex justify-center">
+                                    <img src="images/fruit8.png" alt="">
+                                </div>
+                                <h3 class="font-bold text-lg lg:mt-5">Red Dragon</h3>
+                                <p class="lg:py-4">
+                                    Professional employees are there for you to pick the most amazing and fresh fruits.
+                                </p>
+
+                                <!-- rating -->
+                                <div class="rating rating-half">
+                                    <input type="radio" name="rating-3" class="rating-hidden" />
+                                    <input type="radio" name="rating-3" class="bg-theme mask mask-star-2 mask-half-1" />
+                                    <input type="radio" name="rating-3" class="bg-theme mask mask-star-2 mask-half-2" />
+                                    <input type="radio" name="rating-3" class="bg-theme mask mask-star-2 mask-half-1"
+                                        checked />
+                                    <input type="radio" name="rating-3" class="bg-theme mask mask-star-2 mask-half-2" />
+                                    <input type="radio" name="rating-3" class="bg-theme mask mask-star-2 mask-half-1" />
+                                    <input type="radio" name="rating-3" class="bg-theme mask mask-star-2 mask-half-2" />
+                                    <input type="radio" name="rating-3" class="bg-theme mask mask-star-2 mask-half-1" />
+                                    <input type="radio" name="rating-3" class="bg-theme mask mask-star-2 mask-half-2" />
+                                    <input type="radio" name="rating-3" class="bg-theme mask mask-star-2 mask-half-1" />
+                                    <input type="radio" name="rating-3" class="bg-theme mask mask-star-2 mask-half-2" />
+                                </div>
+                                <div class="modal-action justify-center">
+                                    <!-- if there is a button in form, it will close the modal -->
+                                    <button
+                                        class="btn btn-primary bg-theme hover:bg-red-500 text-white border-0">Close</button>
+                                    <button class="btn btn-primary bg-theme hover:bg-red-500 text-white border-0">Buy
+                                        Now</button>
+                                </div>
+                            </form>
+                        </dialog>
+                    </div>
+                </div>
+
+                <!-- card 4 -->
+                <div class="card bg-base-100 border">
+                    <figure class="px-10 pt-10">
+                        <img src="images/fruit9.png" alt="Shoes" class="rounded-xl" />
+                    </figure>
+                    <div class="card-body items-center text-center">
+                        <h2 class="card-title border-b-2 p-4 pt-0">12.90$ - 18.85$ </h2>
+                        <p>Banana</p>
+
+                        <!-- rating -->
+                        <div class="rating rating-half">
+                            <input type="" name="rating-1" class="rating-hidden" />
+                            <input type="radio" name="rating-4" class="bg-theme mask mask-star-2 mask-half-1" />
+                            <input type="radio" name="rating-4" class="bg-theme mask mask-star-2 mask-half-2" />
+                            <input type="radio" name="rating-4" class="bg-theme mask mask-star-2 mask-half-1" checked />
+                            <input type="radio" name="rating-4" class="bg-theme mask mask-star-2 mask-half-2" />
+                            <input type="radio" name="rating-4" class="bg-theme mask mask-star-2 mask-half-1" />
+                            <input type="radio" name="rating-4" class="bg-theme mask mask-star-2 mask-half-2" />
+                            <input type="radio" name="rating-4" class="bg-theme mask mask-star-2 mask-half-1" />
+                            <input type="radio" name="rating-4" class="bg-theme mask mask-star-2 mask-half-2" />
+                            <input type="radio" name="rating-4" class="bg-theme mask mask-star-2 mask-half-1" />
+                            <input type="radio" name="rating-4" class="bg-theme mask mask-star-2 mask-half-2" />
+                        </div>
+                        <!-- modal -->
+                        <!-- Open the modal using ID.showModal() method -->
+                        <button class="btn bg-white text-theme normal-case border-0"
+                            onclick="my_modal_4.showModal()">Details</button>
+                        <dialog id="my_modal_4" class="modal modal-middle">
+                            <form method="dialog" class="modal-box max-w-sm">
+                                <div class="w-full flex justify-center">
+                                    <img src="images/fruit9.png" alt="">
+                                </div>
+                                <h3 class="font-bold text-lg lg:mt-5">Banana</h3>
+                                <p class="lg:py-4">
+                                    Professional employees are there for you to pick the most amazing and fresh fruits.
+                                </p>
+
+                                <!-- rating -->
+                                <div class="rating rating-half">
+                                    <input type="radio" name="rating-4" class="rating-hidden" />
+                                    <input type="radio" name="rating-4" class="bg-theme mask mask-star-2 mask-half-1" />
+                                    <input type="radio" name="rating-4" class="bg-theme mask mask-star-2 mask-half-2" />
+                                    <input type="radio" name="rating-4" class="bg-theme mask mask-star-2 mask-half-1"
+                                        checked />
+                                    <input type="radio" name="rating-4" class="bg-theme mask mask-star-2 mask-half-2" />
+                                    <input type="radio" name="rating-4" class="bg-theme mask mask-star-2 mask-half-1" />
+                                    <input type="radio" name="rating-4" class="bg-theme mask mask-star-2 mask-half-2" />
+                                    <input type="radio" name="rating-4" class="bg-theme mask mask-star-2 mask-half-1" />
+                                    <input type="radio" name="rating-4" class="bg-theme mask mask-star-2 mask-half-2" />
+                                    <input type="radio" name="rating-4" class="bg-theme mask mask-star-2 mask-half-1" />
+                                    <input type="radio" name="rating-4" class="bg-theme mask mask-star-2 mask-half-2" />
+                                </div>
+                                <div class="modal-action justify-center">
+                                    <!-- if there is a button in form, it will close the modal -->
+                                    <button
+                                        class="btn btn-primary bg-theme hover:bg-red-500 text-white border-0">Close</button>
+                                    <button class="btn btn-primary bg-theme hover:bg-red-500 text-white border-0">Buy
+                                        Now</button>
+                                </div>
+                            </form>
+                        </dialog>
+                    </div>
+                </div>
+            </div>
+            <!-- button -->
+            <div class="w-full text-center">
+                <button class="btn btn-primary bg-theme hover:bg-red-500 text-white border-0">Shop Now</button>
+            </div>
+        </section>
+
+        <!-- Meat the team -->
+        <section class="bg-[url('/images/team.png')] text-white bg-no-repeat bg-cover rounded-lg">
+            <!-- Content-->
+            <div class="bg-slate-900 bg-opacity-70 p-20 rounded-lg">
+                <div class="space-y-5 text-center">
+                    <h3 class="text-4xl font-extrabold">Meet Our Team</h3>
+                    <p class="max-w-xl mx-auto">
+                        Meet with our team members who work hard to provide healthy nutritious fruit and manage to
+                        deliver it to your doorstep without any damage.
+                    </p>
+                </div>
+                <!-- card container -->
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4">
+                    <!-- Card 1 -->
+                    <div class="card">
+                        <figure class="px-10 pt-10">
+                            <img src="images/member1.png" alt="Shoes" class="rounded-xl" />
+                        </figure>
+                        <div class="card-body items-center text-center">
+                            <h2 class="card-title">Awlad Hossain</h2>
+                            <p>Fruits Expert</p>
+                            <div class="card-actions">
+                                <button class="bg-theme rounded-full border-0 px-2">
+                                    <i class="fa-brands fa-facebook-f" style="color: #ffffff;"></i>
+                                </button>
+                                <button class="bg-theme rounded-full border-0 px-1">
+                                    <i class="fa-brands fa-twitter" style="color: #ffffff;"></i>
+                                </button>
+                                <button class="bg-theme rounded-full border-0 px-1">
+                                    <i class="fa-brands fa-linkedin-in" style="color: #ffffff;"></i>
+                                </button>
                             </div>
-                            <div class="modal-action justify-center">
-                                <!-- if there is a button in form, it will close the modal -->
-                                <button
-                                    class="btn btn-primary bg-theme hover:bg-red-500 text-white border-0">Close</button>
-                                <button class="btn btn-primary bg-theme hover:bg-red-500 text-white border-0">Buy
-                                    Now</button>
+                        </div>
+                    </div>
+
+                    <!-- Card 2 -->
+                    <div class="card">
+                        <figure class="px-10 pt-10">
+                            <img src="images/member2.png" alt="Shoes" class="rounded-xl" />
+                        </figure>
+                        <div class="card-body items-center text-center">
+                            <h2 class="card-title">Safia Chowdhury</h2>
+                            <p>Fruits Expert</p>
+                            <div class="card-actions">
+                                <button class="bg-theme rounded-full border-0 px-2">
+                                    <i class="fa-brands fa-facebook-f" style="color: #ffffff;"></i>
+                                </button>
+                                <button class="bg-theme rounded-full border-0 px-1">
+                                    <i class="fa-brands fa-twitter" style="color: #ffffff;"></i>
+                                </button>
+                                <button class="bg-theme rounded-full border-0 px-1">
+                                    <i class="fa-brands fa-linkedin-in" style="color: #ffffff;"></i>
+                                </button>
                             </div>
-                        </form>
-                    </dialog>
+                        </div>
+                    </div>
+
+                    <!-- Card 3 -->
+                    <div class="card">
+                        <figure class="px-10 pt-10">
+                            <img src="images/member3.png" alt="Shoes" class="rounded-xl" />
+                        </figure>
+                        <div class="card-body items-center text-center">
+                            <h2 class="card-title">Rokib Hossain</h2>
+                            <p>Fruits Expert</p>
+                            <div class="card-actions">
+                                <button class="bg-theme rounded-full border-0 px-2">
+                                    <i class="fa-brands fa-facebook-f" style="color: #ffffff;"></i>
+                                </button>
+                                <button class="bg-theme rounded-full border-0 px-1">
+                                    <i class="fa-brands fa-twitter" style="color: #ffffff;"></i>
+                                </button>
+                                <button class="bg-theme rounded-full border-0 px-1">
+                                    <i class="fa-brands fa-linkedin-in" style="color: #ffffff;"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Card 4 -->
+                    <div class="card">
+                        <figure class="px-10 pt-10">
+                            <img src="images/member4.png" alt="Shoes" class="rounded-xl" />
+                        </figure>
+                        <div class="card-body items-center text-center">
+                            <h2 class="card-title">Chaity</h2>
+                            <p>Fruits Expert</p>
+                            <div class="card-actions">
+                                <button class="bg-theme rounded-full border-0 px-2">
+                                    <i class="fa-brands fa-facebook-f" style="color: #ffffff;"></i>
+                                </button>
+                                <button class="bg-theme rounded-full border-0 px-1">
+                                    <i class="fa-brands fa-twitter" style="color: #ffffff;"></i>
+                                </button>
+                                <button class="bg-theme rounded-full border-0 px-1">
+                                    <i class="fa-brands fa-linkedin-in" style="color: #ffffff;"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
 
-            <!-- card 2 -->
-            <div class="card bg-base-100 border">
-                <figure class="px-10 pt-10">
-                    <img src="images/fruit7.png" alt="Shoes" class="rounded-xl" />
-                </figure>
-                <div class="card-body items-center text-center">
-                    <h2 class="card-title border-b-2 p-4 pt-0">12.90$ - 18.85$ </h2>
-                    <p>Orange</p>
 
-                    <!-- rating -->
-                    <div class="rating rating-half">
-                        <input type="radio" name="rating-2" class="rating-hidden" />
-                        <input type="radio" name="rating-2" class="bg-theme mask mask-star-2 mask-half-1" />
-                        <input type="radio" name="rating-2" class="bg-theme mask mask-star-2 mask-half-2" />
-                        <input type="radio" name="rating-2" class="bg-theme mask mask-star-2 mask-half-1" checked />
-                        <input type="radio" name="rating-2" class="bg-theme mask mask-star-2 mask-half-2" />
-                        <input type="radio" name="rating-2" class="bg-theme mask mask-star-2 mask-half-1" />
-                        <input type="radio" name="rating-2" class="bg-theme mask mask-star-2 mask-half-2" />
-                        <input type="radio" name="rating-2" class="bg-theme mask mask-star-2 mask-half-1" />
-                        <input type="radio" name="rating-2" class="bg-theme mask mask-star-2 mask-half-2" />
-                        <input type="radio" name="rating-2" class="bg-theme mask mask-star-2 mask-half-1" />
-                        <input type="radio" name="rating-2" class="bg-theme mask mask-star-2 mask-half-2" />
-                    </div>
-                    <!-- modal -->
-                    <!-- Open the modal using ID.showModal() method -->
-                    <button class="btn bg-white text-theme normal-case border-0"
-                        onclick="my_modal_2.showModal()">Details</button>
-                    <dialog id="my_modal_2" class="modal modal-middle">
-                        <form method="dialog" class="modal-box max-w-sm">
-                            <div class="w-full flex justify-center">
-                                <img src="images/fruit7.png" alt="">
-                            </div>
-                            <h3 class="font-bold text-lg lg:mt-5">Orange</h3>
-                            <p class="lg:py-4">
-                                Professional employees are there for you to pick the most amazing and fresh fruits.
-                            </p>
-
-                            <!-- rating -->
-                            <div class="rating rating-half">
-                                <input type="radio" name="rating-2" class="rating-hidden" />
-                                <input type="radio" name="rating-2" class="bg-theme mask mask-star-2 mask-half-1" />
-                                <input type="radio" name="rating-2" class="bg-theme mask mask-star-2 mask-half-2" />
-                                <input type="radio" name="rating-2" class="bg-theme mask mask-star-2 mask-half-1"
-                                    checked />
-                                <input type="radio" name="rating-2" class="bg-theme mask mask-star-2 mask-half-2" />
-                                <input type="radio" name="rating-2" class="bg-theme mask mask-star-2 mask-half-1" />
-                                <input type="radio" name="rating-2" class="bg-theme mask mask-star-2 mask-half-2" />
-                                <input type="radio" name="rating-2" class="bg-theme mask mask-star-2 mask-half-1" />
-                                <input type="radio" name="rating-2" class="bg-theme mask mask-star-2 mask-half-2" />
-                                <input type="radio" name="rating-2" class="bg-theme mask mask-star-2 mask-half-1" />
-                                <input type="radio" name="rating-2" class="bg-theme mask mask-star-2 mask-half-2" />
-                            </div>
-                            <div class="modal-action justify-center">
-                                <!-- if there is a button in form, it will close the modal -->
-                                <button
-                                    class="btn btn-primary bg-theme hover:bg-red-500 text-white border-0">Close</button>
-                                <button class="btn btn-primary bg-theme hover:bg-red-500 text-white border-0">Buy
-                                    Now</button>
-                            </div>
-                        </form>
-                    </dialog>
-                </div>
-            </div>
-
-            <!-- card 3 -->
-            <div class="card bg-base-100 border">
-                <figure class="px-10 pt-10">
-                    <img src="images/fruit8.png" alt="Shoes" class="rounded-xl" />
-                </figure>
-                <div class="card-body items-center text-center">
-                    <h2 class="card-title border-b-2 p-4 pt-0">12.90$ - 18.85$ </h2>
-                    <p>Red Dragon</p>
-
-                    <!-- rating -->
-                    <div class="rating rating-half">
-                        <input type="radio" name="rating-3" class="rating-hidden" />
-                        <input type="radio" name="rating-3" class="bg-theme mask mask-star-2 mask-half-1" />
-                        <input type="radio" name="rating-3" class="bg-theme mask mask-star-2 mask-half-2" />
-                        <input type="radio" name="rating-3" class="bg-theme mask mask-star-2 mask-half-1" checked />
-                        <input type="radio" name="rating-3" class="bg-theme mask mask-star-2 mask-half-2" />
-                        <input type="radio" name="rating-3" class="bg-theme mask mask-star-2 mask-half-1" />
-                        <input type="radio" name="rating-3" class="bg-theme mask mask-star-2 mask-half-2" />
-                        <input type="radio" name="rating-3" class="bg-theme mask mask-star-2 mask-half-1" />
-                        <input type="radio" name="rating-3" class="bg-theme mask mask-star-2 mask-half-2" />
-                        <input type="radio" name="rating-3" class="bg-theme mask mask-star-2 mask-half-1" />
-                        <input type="radio" name="rating-3" class="bg-theme mask mask-star-2 mask-half-2" />
-                    </div>
-                    <!-- modal -->
-                    <!-- Open the modal using ID.showModal() method -->
-                    <button class="btn bg-white text-theme normal-case border-0"
-                        onclick="my_modal_3.showModal()">Details</button>
-                    <dialog id="my_modal_3" class="modal modal-middle">
-                        <form method="dialog" class="modal-box max-w-sm">
-                            <div class="w-full flex justify-center">
-                                <img src="images/fruit8.png" alt="">
-                            </div>
-                            <h3 class="font-bold text-lg lg:mt-5">Red Dragon</h3>
-                            <p class="lg:py-4">
-                                Professional employees are there for you to pick the most amazing and fresh fruits.
-                            </p>
-
-                            <!-- rating -->
-                            <div class="rating rating-half">
-                                <input type="radio" name="rating-3" class="rating-hidden" />
-                                <input type="radio" name="rating-3" class="bg-theme mask mask-star-2 mask-half-1" />
-                                <input type="radio" name="rating-3" class="bg-theme mask mask-star-2 mask-half-2" />
-                                <input type="radio" name="rating-3" class="bg-theme mask mask-star-2 mask-half-1"
-                                    checked />
-                                <input type="radio" name="rating-3" class="bg-theme mask mask-star-2 mask-half-2" />
-                                <input type="radio" name="rating-3" class="bg-theme mask mask-star-2 mask-half-1" />
-                                <input type="radio" name="rating-3" class="bg-theme mask mask-star-2 mask-half-2" />
-                                <input type="radio" name="rating-3" class="bg-theme mask mask-star-2 mask-half-1" />
-                                <input type="radio" name="rating-3" class="bg-theme mask mask-star-2 mask-half-2" />
-                                <input type="radio" name="rating-3" class="bg-theme mask mask-star-2 mask-half-1" />
-                                <input type="radio" name="rating-3" class="bg-theme mask mask-star-2 mask-half-2" />
-                            </div>
-                            <div class="modal-action justify-center">
-                                <!-- if there is a button in form, it will close the modal -->
-                                <button
-                                    class="btn btn-primary bg-theme hover:bg-red-500 text-white border-0">Close</button>
-                                <button class="btn btn-primary bg-theme hover:bg-red-500 text-white border-0">Buy
-                                    Now</button>
-                            </div>
-                        </form>
-                    </dialog>
-                </div>
-            </div>
-
-            <!-- card 4 -->
-            <div class="card bg-base-100 border">
-                <figure class="px-10 pt-10">
-                    <img src="images/fruit9.png" alt="Shoes" class="rounded-xl" />
-                </figure>
-                <div class="card-body items-center text-center">
-                    <h2 class="card-title border-b-2 p-4 pt-0">12.90$ - 18.85$ </h2>
-                    <p>Banana</p>
-
-                    <!-- rating -->
-                    <div class="rating rating-half">
-                        <input type="" name="rating-1" class="rating-hidden" />
-                        <input type="radio" name="rating-4" class="bg-theme mask mask-star-2 mask-half-1" />
-                        <input type="radio" name="rating-4" class="bg-theme mask mask-star-2 mask-half-2" />
-                        <input type="radio" name="rating-4" class="bg-theme mask mask-star-2 mask-half-1" checked />
-                        <input type="radio" name="rating-4" class="bg-theme mask mask-star-2 mask-half-2" />
-                        <input type="radio" name="rating-4" class="bg-theme mask mask-star-2 mask-half-1" />
-                        <input type="radio" name="rating-4" class="bg-theme mask mask-star-2 mask-half-2" />
-                        <input type="radio" name="rating-4" class="bg-theme mask mask-star-2 mask-half-1" />
-                        <input type="radio" name="rating-4" class="bg-theme mask mask-star-2 mask-half-2" />
-                        <input type="radio" name="rating-4" class="bg-theme mask mask-star-2 mask-half-1" />
-                        <input type="radio" name="rating-4" class="bg-theme mask mask-star-2 mask-half-2" />
-                    </div>
-                    <!-- modal -->
-                    <!-- Open the modal using ID.showModal() method -->
-                    <button class="btn bg-white text-theme normal-case border-0"
-                        onclick="my_modal_4.showModal()">Details</button>
-                    <dialog id="my_modal_4" class="modal modal-middle">
-                        <form method="dialog" class="modal-box max-w-sm">
-                            <div class="w-full flex justify-center">
-                                <img src="images/fruit9.png" alt="">
-                            </div>
-                            <h3 class="font-bold text-lg lg:mt-5">Banana</h3>
-                            <p class="lg:py-4">
-                                Professional employees are there for you to pick the most amazing and fresh fruits.
-                            </p>
-
-                            <!-- rating -->
-                            <div class="rating rating-half">
-                                <input type="radio" name="rating-4" class="rating-hidden" />
-                                <input type="radio" name="rating-4" class="bg-theme mask mask-star-2 mask-half-1" />
-                                <input type="radio" name="rating-4" class="bg-theme mask mask-star-2 mask-half-2" />
-                                <input type="radio" name="rating-4" class="bg-theme mask mask-star-2 mask-half-1"
-                                    checked />
-                                <input type="radio" name="rating-4" class="bg-theme mask mask-star-2 mask-half-2" />
-                                <input type="radio" name="rating-4" class="bg-theme mask mask-star-2 mask-half-1" />
-                                <input type="radio" name="rating-4" class="bg-theme mask mask-star-2 mask-half-2" />
-                                <input type="radio" name="rating-4" class="bg-theme mask mask-star-2 mask-half-1" />
-                                <input type="radio" name="rating-4" class="bg-theme mask mask-star-2 mask-half-2" />
-                                <input type="radio" name="rating-4" class="bg-theme mask mask-star-2 mask-half-1" />
-                                <input type="radio" name="rating-4" class="bg-theme mask mask-star-2 mask-half-2" />
-                            </div>
-                            <div class="modal-action justify-center">
-                                <!-- if there is a button in form, it will close the modal -->
-                                <button
-                                    class="btn btn-primary bg-theme hover:bg-red-500 text-white border-0">Close</button>
-                                <button class="btn btn-primary bg-theme hover:bg-red-500 text-white border-0">Buy Now</button>
-                            </div>
-                        </form>
-                    </dialog>
-                </div>
-            </div>
-        </div>
-        <!-- button -->
-        <div class="w-full text-center">
-            <button class="btn btn-primary bg-theme hover:bg-red-500 text-white border-0">Shop Now</button>
-        </div>
+        </section>
     </main>
     <footer></footer>
 </body>
